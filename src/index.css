@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/* .forAlign {
+  font-size: 24px;
+  line-height: 1;
+}
+@media (min-width: 640px) {
+  .forAlign{
+    font-size: 30px;
+    line-height: normal;
+  }
+}
+@media (min-width: 1024px) {
+  .forAlign{
+    font-size: 36px;
+    line-height: 1;
+  }
+} */
+@layer base {
+    button {
+        @apply border border-black rounded-xl px-5 py-1
+    }
+}
+@media (min-width: 400px) {
+    .my-element {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
