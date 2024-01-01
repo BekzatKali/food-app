@@ -6,9 +6,7 @@ const Food = () => {
   const [category, setCategory] = useState('')
 
   const filterType = (category) => {
-    setFoods(data.filter(item => {
-      return item.category === category
-    }))
+    setFoods(data.filter(item => item.category === category))
     setCategory(category)
   }
 
